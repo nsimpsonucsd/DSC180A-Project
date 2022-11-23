@@ -3,9 +3,9 @@ import numpy as np
 import sys
 
 def read_data(d):
-    print(d)
+    if d == 'test'
     try:
-        data=pd.read_csv(d+'/2_test.csv', index_col=0)
+        data=pd.read_csv('test/2_test.csv', index_col=0)
         return data
     except:
         print('data read unsuccessful.')
