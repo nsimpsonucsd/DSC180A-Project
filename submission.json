@@ -1,0 +1,4 @@
+{
+    "dockerhub-id": "nsimpsonucsd/dsc180a-project:latest",
+    "build-script": "python run.py"
+}
